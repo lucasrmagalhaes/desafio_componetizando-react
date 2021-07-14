@@ -1,6 +1,8 @@
 import { useMovies } from "../MoviesContext";
 import { Button } from "./Button";
 
+import '../styles/sidebar.scss'
+
 export function SideBar() {
   const { genres, handleClickButton, selectedGenreId } = useMovies();
 
